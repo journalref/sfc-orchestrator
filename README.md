@@ -51,7 +51,7 @@ This guide shows you how to let SFC Orchestrator applying the VNFFG - NFV Orches
 
 Refering to [Open Baton VNF Packages usage](http://openbaton.github.io/documentation/vnfpackage/), you can use the following JSON File in your setup.
 
-```
+```json
 {
     "vendor":"fokus",
     "version":"0.2",
@@ -122,7 +122,7 @@ image:
 Here is the NSD that you can use. It includes the VNF Forwarding Graph Descriptor which includes the Network Forwarding Path and the Policy dedicated to it. 
 The VNFD part of the NSD includes the ids of the VNF Descriptors which are involved in this NSD. The VNFFGD the dependent virtual network links, the Network Forwarding Path and the Involved VNFDs in this VNFFGD. The Network Forwarding Path consists of connection and policy. The connection constructs the order of the Service Functions (VNFs) in the Service Function Chain. The policy consists of the ACL matching criteria that is used to classify the traffic and directs the matched ones to this chain.
 
-```
+```json
 {
     "name": "http-sfc",
     "vendor": "fokus",
