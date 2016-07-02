@@ -30,15 +30,13 @@ nfvo.password                                | NFVO Password. Default value: ope
 nfvo.security                                | NFVO Security. Default value: false
 server.port                                  | Port of the SFC Orchestrator
 spring.http.converters.preferred-json-mapper | json converter. Default value: gson
----------------------------------------------|---------------------------------------------------------------------
 spring.rabbitmq.host                         | IP of the machine where RabbitMQ is running. 
 spring.rabbitmq.port                         | Port of the machine where RabbitMQ is running. Default value: 5672
 spring.rabbitmq.username                     | username for authorization of RabbitMQ
 spring.rabbitmq.password                     | password for authorization of RabbitMQ
---------------------------------------------------------------------------------------------------------------------
-logging.level.*                              | Log level of the Spring,hibernate and openbaton components
+logging.level.*                              | Log level of the defined modules
 
-code()
+
 
 
 
